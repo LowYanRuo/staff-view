@@ -114,8 +114,6 @@ public class HelloController implements Initializable {
         connection = database.getConnect();
         refreshTable();
 
-
-
         courseid.setCellValueFactory(new PropertyValueFactory<>("CourseID"));
         coursecode1.setCellValueFactory(new PropertyValueFactory<>("CourseCode1"));
         coursecode2.setCellValueFactory(new PropertyValueFactory<>("CourseCode2"));
