@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="709.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.staffview.HelloController">
+   <children>
+      <TableView fx:id="tableview" layoutX="13.0" layoutY="78.0" prefHeight="303.0" prefWidth="683.0">
+        <columns>
+          <TableColumn fx:id="courseid" minWidth="68.00000286102295" prefWidth="68.00000286102295" text="Course ID" />
+          <TableColumn fx:id="coursecode1" minWidth="100.0" prefWidth="108.66670989990234" text="Course Code 1" />
+            <TableColumn fx:id="coursecode2" minWidth="100.0" prefWidth="123.33332824707031" text="Course Code 2" />
+            <TableColumn fx:id="modulename" minWidth="200.0" prefWidth="62.000030517578125" text="Module Name" />
+            <TableColumn fx:id="occurence" minWidth="50.0" prefWidth="47.3333740234375" text="Occurrence" />
+            <TableColumn fx:id="activity" minWidth="100.0" prefWidth="46.0" text="Activity" />
+            <TableColumn fx:id="day" minWidth="100.0" prefWidth="45.3333740234375" text="Day" />
+            <TableColumn fx:id="time1" minWidth="70.0" prefWidth="42.66668701171875" text="Time1" />
+            <TableColumn fx:id="time2" minWidth="70.0" prefWidth="53.33331298828125" text="Time2" />
+            <TableColumn fx:id="target" minWidth="50.0" prefWidth="43.99993896484375" text="Target" />
+            <TableColumn fx:id="actual" minWidth="50.0" prefWidth="52.0" text="Actual" />
+            <TableColumn fx:id="credits" minWidth="50.0" prefWidth="50.0" text="Credits" />
+            <TableColumn fx:id="tutor" minWidth="200.0" prefWidth="50.0" text="Tutor" />
+        </columns>
+      </TableView>
+      <MenuButton fx:id="mbNameofTutor" alignment="CENTER" contentDisplay="TOP" layoutX="492.0" layoutY="36.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="203.0" text="Name of Tutor" textAlignment="CENTER">
+        <items>
+          <MenuItem mnemonicParsing="false" text="ADITYA A/L KARUTHAN" />
+          <MenuItem mnemonicParsing="false" text="AINA AZLIN BINTI MOHAMAT ARIF" />
+            <MenuItem mnemonicParsing="false" text="AMIRRUDIN BIN KAMSIN" />
+            <MenuItem mnemonicParsing="false" text="ANG TAN FONG" />
+            <MenuItem mnemonicParsing="false" text="AZNUL QALID BIN MD SABRI" />
+            <MenuItem mnemonicParsing="false" text="CHIAM YIN KIA" />
+            <MenuItem mnemonicParsing="false" text="ERMA RAHAYU BINTI MOHD FAIZAL ABDULLAH" />
+            <MenuItem mnemonicParsing="false" text="FARIZA HANUM BINTI MD NASARUDDIN" />
+            <MenuItem mnemonicParsing="false" text="FARRIL DANIEL BIN ZAINAL" />
+            <MenuItem mnemonicParsing="false" text="HANNYZZURA BINTI PAL @ AFFAL" />
+            <MenuItem mnemonicParsing="false" text="HASAN KAHTAN KHALAF" />
+            <MenuItem mnemonicParsing="false" text="HEMA A/P SUBRAMANIAM" />
+            <MenuItem mnemonicParsing="false" text="HOO WAI LAM" />
+            <MenuItem mnemonicParsing="false" text="KAMARAZAMAN BIN MD SAID" />
+            <MenuItem mnemonicParsing="false" text="KIRANJEET KAUR A/P MUKHTIAR SINGH" />
+            <MenuItem mnemonicParsing="false" text="LIM CHEE KAU" />
+            <MenuItem mnemonicParsing="false" text="LIM CHOY WAN" />
+            <MenuItem mnemonicParsing="false" text="LOW MAI YEN" />
+            <MenuItem mnemonicParsing="false" text="MAIZATUL AKMAR BINTI ISMAIL" />
+            <MenuItem mnemonicParsing="false" text="MAS IDAYU BINTI MD SABRI" />
+            <MenuItem mnemonicParsing="false" text="MOHD YAMANI IDNA BIN IDRIS" />
+            <MenuItem mnemonicParsing="false" text="NOR AZLINA BINTI MUHAMAD" />
+            <MenuItem mnemonicParsing="false" text="NOR SYAKIRIN BINTI MOHAMED NASRUDIN" />
+            <MenuItem mnemonicParsing="false" text="POR LIP YEE" />
+            <MenuItem mnemonicParsing="false" text="ROZIANA BINTI RAMLI" />
+            <MenuItem mnemonicParsing="false" text="SITI SORAYA BINTI ABDUL RAHMAN" />
+            <MenuItem mnemonicParsing="false" text="TAN KEN SIANG" />
+            <MenuItem mnemonicParsing="false" text="TEH YING WAH" />
+            <MenuItem mnemonicParsing="false" text="TEY KOK SOON" />
+        </items>
+      </MenuButton>
+      <TextField fx:id="tfentername" layoutX="14.0" layoutY="36.0" prefHeight="25.0" prefWidth="203.0" promptText="Enter your name" />
+   </children>
+</AnchorPane>
