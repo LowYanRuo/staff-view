@@ -16,7 +16,7 @@ public class HelloApplication extends Application {
         //Scene scene = new Scene(fxmlLoader.load(), 600, 400);
 
 
-        Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("registered-view.fxml"));
         Scene scene = new Scene(root);
         //Image icon = new Image(("UM logo.png"));
         //stage.getIcons().add(icon) ;

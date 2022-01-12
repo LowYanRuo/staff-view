@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.staffview.Controller3">
+   <children>
+      <TableView fx:id="StudentTableView" layoutX="15.0" layoutY="147.0" prefHeight="200.0" prefWidth="569.0">
+        <columns>
+            <TableColumn fx:id="tcMatricNo" prefWidth="221.99996948242188" text="Matric No" />
+          <TableColumn fx:id="tcName" minWidth="0.0" prefWidth="344.66668701171875" text="Name" />
+            <TableColumn prefWidth="57.33331298828125" text="course code" />
+        </columns>
+      </TableView>
+      <TextField fx:id="tfCourseCode" layoutX="15.0" layoutY="95.0" prefHeight="25.0" prefWidth="195.0" promptText="course code" />
+      <TextField fx:id="tfOcc" layoutX="229.0" layoutY="95.0" prefHeight="25.0" prefWidth="195.0" promptText="occurrence" />
+      <Button fx:id="btnSearch" layoutX="442.0" layoutY="95.0" mnemonicParsing="false" onAction="#handlebtnSearch" prefHeight="25.0" prefWidth="136.0" text="search" />
+   </children>
+</AnchorPane>
